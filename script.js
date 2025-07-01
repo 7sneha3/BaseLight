@@ -1,8 +1,3 @@
-// window.addEventListener('mousemove', (e) => {
-//     document.body.style.setProperty('--mx', e.clientX - (window.innerWidth / 2));
-//     document.body.style.setProperty('--my', e.clientY - (window.innerHeight / 2));
-// });
-
 function updatePosition(x, y) {
     document.body.style.setProperty('--mx', x - (window.innerWidth / 2));
     document.body.style.setProperty('--my', y - (window.innerHeight / 2));
